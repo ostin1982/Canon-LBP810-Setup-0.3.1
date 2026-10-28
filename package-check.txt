@@ -1,0 +1,1 @@
+Package 0.3.1: original working executable files retained. Installer CheckOnly passed after adding Zone.Identifier ZoneId=3 to packaged Raster.dll. DLL verified by SHA256, unblocked and loaded successfully. No printer queue or startup changes made during packaging test.

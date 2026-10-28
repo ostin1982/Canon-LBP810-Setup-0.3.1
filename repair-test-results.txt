@@ -1,0 +1,3 @@
+Reproduced: Raster.dll with Zone.Identifier ZoneId=3 failed Add-Type with HRESULT 0x80131515.
+Repair-Blocked-DLL.cmd verified SHA256 of the original 0.3 DLL, removed its download mark, and Add-Type succeeded in Windows PowerShell.
+Remote print jobs all failed at Render-Job.ps1 line 5, before page rendering or USB output. Hardware print after repair is not yet tested.

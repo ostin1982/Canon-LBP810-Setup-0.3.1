@@ -1,0 +1,6 @@
+LBP810 USB bridge 0.3 (buffered USB reads)
+SCoA roundtrip 0: 3367 -> 94 bytes OK
+SCoA roundtrip 1: 3367 -> 94 bytes OK
+SCoA roundtrip 2: 3367 -> 3564 bytes OK
+SCoA roundtrip 3: 4348680 -> 430206 bytes OK
+Model guard and packet framing OK. Offline tests passed; hardware NOT tested.

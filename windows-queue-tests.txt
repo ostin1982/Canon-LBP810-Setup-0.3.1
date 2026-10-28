@@ -1,0 +1,13 @@
+PDF pages: 2
+LBP810 USB bridge 0.3 (buffered USB reads)
+Valid A4 PBM
+Page 1 processed; DryRun=True
+LBP810 USB bridge 0.3 (buffered USB reads)
+Valid A4 PBM
+Page 2 processed; DryRun=True
+Integration evidence:
+- Two 2-page jobs submitted using System.Drawing.Printing.PrintDocument to the installed queue Canon LBP-810 (USB).
+- Received and rendered all four pages in DryRun; second job includes verified Cyrillic text.
+- Windows queue emptied after successful transfer to local bridge.
+- Non-PDF input rejected; no rendering or USB submission.
+- Actual USB printer was absent during this integration test; document printing on paper remains to be verified.

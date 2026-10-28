@@ -1,0 +1,201 @@
+Running main() from work/googletest/googletest/src/gtest_main.cc
+[==========] Running 84 tests from 9 test suites.
+[----------] Global test environment set-up.
+[----------] 13 tests from StreamPacketTest
+[ RUN      ] StreamPacketTest.Discard
+[       OK ] StreamPacketTest.Discard (0 ms)
+[ RUN      ] StreamPacketTest.DtorDiscard
+[       OK ] StreamPacketTest.DtorDiscard (0 ms)
+[ RUN      ] StreamPacketTest.MoveCtorDiscard
+[       OK ] StreamPacketTest.MoveCtorDiscard (0 ms)
+[ RUN      ] StreamPacketTest.MoveAssignDiscard
+[       OK ] StreamPacketTest.MoveAssignDiscard (0 ms)
+[ RUN      ] StreamPacketTest.ReadByte
+[       OK ] StreamPacketTest.ReadByte (0 ms)
+[ RUN      ] StreamPacketTest.ReadUint16
+[       OK ] StreamPacketTest.ReadUint16 (0 ms)
+[ RUN      ] StreamPacketTest.ReadUint32
+[       OK ] StreamPacketTest.ReadUint32 (0 ms)
+[ RUN      ] StreamPacketTest.Basic
+[       OK ] StreamPacketTest.Basic (0 ms)
+[ RUN      ] StreamPacketTest.ReadByteEOF
+[       OK ] StreamPacketTest.ReadByteEOF (0 ms)
+[ RUN      ] StreamPacketTest.ReadUint16EOF
+[       OK ] StreamPacketTest.ReadUint16EOF (0 ms)
+[ RUN      ] StreamPacketTest.ReadUint32EOF
+[       OK ] StreamPacketTest.ReadUint32EOF (0 ms)
+[ RUN      ] StreamPacketTest.ReadBytes
+[       OK ] StreamPacketTest.ReadBytes (0 ms)
+[ RUN      ] StreamPacketTest.ReadBytesEOF
+[       OK ] StreamPacketTest.ReadBytesEOF (0 ms)
+[----------] 13 tests from StreamPacketTest (0 ms total)
+
+[----------] 2 tests from ScoaStreambufTest
+[ RUN      ] ScoaStreambufTest.General
+[       OK ] ScoaStreambufTest.General (0 ms)
+[ RUN      ] ScoaStreambufTest.PartialRaster
+[       OK ] ScoaStreambufTest.PartialRaster (0 ms)
+[----------] 2 tests from ScoaStreambufTest (0 ms total)
+
+[----------] 2 tests from ScoaStateTest
+[ RUN      ] ScoaStateTest.SingleLine
+[       OK ] ScoaStateTest.SingleLine (0 ms)
+[ RUN      ] ScoaStateTest.MultiLine
+[       OK ] ScoaStateTest.MultiLine (0 ms)
+[----------] 2 tests from ScoaStateTest (0 ms total)
+
+[----------] 30 tests from ProtocolTest
+[ RUN      ] ProtocolTest.IC_BEGIN_PAGE
+[       OK ] ProtocolTest.IC_BEGIN_PAGE (0 ms)
+[ RUN      ] ProtocolTest.IC_BEGIN_DATA
+[       OK ] ProtocolTest.IC_BEGIN_DATA (0 ms)
+[ RUN      ] ProtocolTest.IC_END_PAGE
+[       OK ] ProtocolTest.IC_END_PAGE (0 ms)
+[ RUN      ] ProtocolTest.IC_VIDEO_DATA
+[       OK ] ProtocolTest.IC_VIDEO_DATA (0 ms)
+[ RUN      ] ProtocolTest.IC_VIDEO_DATA_Overflow
+[       OK ] ProtocolTest.IC_VIDEO_DATA_Overflow (0 ms)
+[ RUN      ] ProtocolTest.PC_GET_EXTENDED_STATUS
+[       OK ] ProtocolTest.PC_GET_EXTENDED_STATUS (0 ms)
+[ RUN      ] ProtocolTest.PC_GET_EXTENDED_STATUS_ErrorBit
+[       OK ] ProtocolTest.PC_GET_EXTENDED_STATUS_ErrorBit (0 ms)
+[ RUN      ] ProtocolTest.PC_GET_EXTENDED_STATUS_UnexpectedOpcodeResponse
+[       OK ] ProtocolTest.PC_GET_EXTENDED_STATUS_UnexpectedOpcodeResponse (0 ms)
+[ RUN      ] ProtocolTest.PC_GET_PRINTER_INFO
+[       OK ] ProtocolTest.PC_GET_PRINTER_INFO (0 ms)
+[ RUN      ] ProtocolTest.PC_GET_PRINTER_INFO_UnexpectedOpcodeResponse
+[       OK ] ProtocolTest.PC_GET_PRINTER_INFO_UnexpectedOpcodeResponse (0 ms)
+[ RUN      ] ProtocolTest.PCR_GET_BASIC_STATUS
+[       OK ] ProtocolTest.PCR_GET_BASIC_STATUS (0 ms)
+[ RUN      ] ProtocolTest.PCR_GET_BASIC_STATUS_UnexpectedOpcodeResponse
+[       OK ] ProtocolTest.PCR_GET_BASIC_STATUS_UnexpectedOpcodeResponse (0 ms)
+[ RUN      ] ProtocolTest.PCR_GO_ONLINE
+[       OK ] ProtocolTest.PCR_GO_ONLINE (0 ms)
+[ RUN      ] ProtocolTest.PCR_GO_ONLINE_UnexpectedOpcodeResponse
+[       OK ] ProtocolTest.PCR_GO_ONLINE_UnexpectedOpcodeResponse (0 ms)
+[ RUN      ] ProtocolTest.PCR_CLEANING
+[       OK ] ProtocolTest.PCR_CLEANING (0 ms)
+[ RUN      ] ProtocolTest.PCR_CLEANING_UnexpectedOpcodeResponse
+[       OK ] ProtocolTest.PCR_CLEANING_UnexpectedOpcodeResponse (0 ms)
+[ RUN      ] ProtocolTest.PC_RESERVE_UNIT
+[       OK ] ProtocolTest.PC_RESERVE_UNIT (0 ms)
+[ RUN      ] ProtocolTest.PC_RESERVE_UNIT_UnexpectedOpcodeResponse
+[       OK ] ProtocolTest.PC_RESERVE_UNIT_UnexpectedOpcodeResponse (0 ms)
+[ RUN      ] ProtocolTest.PCR_DISCARD_DATA
+[       OK ] ProtocolTest.PCR_DISCARD_DATA (0 ms)
+[ RUN      ] ProtocolTest.PCR_DISCARD_DATA_UnexpectedOpcodeResponse
+[       OK ] ProtocolTest.PCR_DISCARD_DATA_UnexpectedOpcodeResponse (0 ms)
+[ RUN      ] ProtocolTest.PCR_CLEAR_ERROR
+[       OK ] ProtocolTest.PCR_CLEAR_ERROR (0 ms)
+[ RUN      ] ProtocolTest.PCR_CLEAR_ERROR_UnexpectedOpcodeResponse
+[       OK ] ProtocolTest.PCR_CLEAR_ERROR_UnexpectedOpcodeResponse (0 ms)
+[ RUN      ] ProtocolTest.PCR_GO_OFFLINE
+[       OK ] ProtocolTest.PCR_GO_OFFLINE (0 ms)
+[ RUN      ] ProtocolTest.PCR_GO_OFFLINE_UnexpectedOpcodeResponse
+[       OK ] ProtocolTest.PCR_GO_OFFLINE_UnexpectedOpcodeResponse (0 ms)
+[ RUN      ] ProtocolTest.PCR_RELEASE_UNIT
+[       OK ] ProtocolTest.PCR_RELEASE_UNIT (0 ms)
+[ RUN      ] ProtocolTest.PCR_RELEASE_UNIT_UnexpectedOpcodeResponse
+[       OK ] ProtocolTest.PCR_RELEASE_UNIT_UnexpectedOpcodeResponse (0 ms)
+[ RUN      ] ProtocolTest.PCR_CLEAR_MISPRINT
+[       OK ] ProtocolTest.PCR_CLEAR_MISPRINT (0 ms)
+[ RUN      ] ProtocolTest.PCR_CLEAR_MISPRINT_UnexpectedOpcodeResponse
+[       OK ] ProtocolTest.PCR_CLEAR_MISPRINT_UnexpectedOpcodeResponse (0 ms)
+[ RUN      ] ProtocolTest.PCR_RESET_ENGINE
+[       OK ] ProtocolTest.PCR_RESET_ENGINE (0 ms)
+[ RUN      ] ProtocolTest.PCR_RESET_ENGINE_UnexpectedOpcodeResponse
+[       OK ] ProtocolTest.PCR_RESET_ENGINE_UnexpectedOpcodeResponse (0 ms)
+[----------] 30 tests from ProtocolTest (0 ms total)
+
+[----------] 10 tests from PacketReaderTest
+[ RUN      ] PacketReaderTest.ReadByte
+[       OK ] PacketReaderTest.ReadByte (0 ms)
+[ RUN      ] PacketReaderTest.ReadUint16
+[       OK ] PacketReaderTest.ReadUint16 (0 ms)
+[ RUN      ] PacketReaderTest.ReadUint32
+[       OK ] PacketReaderTest.ReadUint32 (0 ms)
+[ RUN      ] PacketReaderTest.Basic
+[       OK ] PacketReaderTest.Basic (0 ms)
+[ RUN      ] PacketReaderTest.ReadByteEOF
+[       OK ] PacketReaderTest.ReadByteEOF (0 ms)
+[ RUN      ] PacketReaderTest.ReadUint16EOF
+[       OK ] PacketReaderTest.ReadUint16EOF (0 ms)
+[ RUN      ] PacketReaderTest.ReadUint32EOF
+[       OK ] PacketReaderTest.ReadUint32EOF (0 ms)
+[ RUN      ] PacketReaderTest.ReadBytesZero
+[       OK ] PacketReaderTest.ReadBytesZero (0 ms)
+[ RUN      ] PacketReaderTest.ReadBytes
+[       OK ] PacketReaderTest.ReadBytes (0 ms)
+[ RUN      ] PacketReaderTest.ReadBytesEOF
+[       OK ] PacketReaderTest.ReadBytesEOF (0 ms)
+[----------] 10 tests from PacketReaderTest (0 ms total)
+
+[----------] 10 tests from PacketHeaderTest
+[ RUN      ] PacketHeaderTest.WriteNoPayload
+[       OK ] PacketHeaderTest.WriteNoPayload (0 ms)
+[ RUN      ] PacketHeaderTest.WritePayload
+[       OK ] PacketHeaderTest.WritePayload (0 ms)
+[ RUN      ] PacketHeaderTest.WritePayload2
+[       OK ] PacketHeaderTest.WritePayload2 (0 ms)
+[ RUN      ] PacketHeaderTest.WriteLongPayload
+[       OK ] PacketHeaderTest.WriteLongPayload (0 ms)
+[ RUN      ] PacketHeaderTest.WriteOverflow
+[       OK ] PacketHeaderTest.WriteOverflow (0 ms)
+[ RUN      ] PacketHeaderTest.ReadInvalidSize
+[       OK ] PacketHeaderTest.ReadInvalidSize (0 ms)
+[ RUN      ] PacketHeaderTest.ReadNoPayload
+[       OK ] PacketHeaderTest.ReadNoPayload (0 ms)
+[ RUN      ] PacketHeaderTest.ReadPayload
+[       OK ] PacketHeaderTest.ReadPayload (0 ms)
+[ RUN      ] PacketHeaderTest.ReadPayload2
+[       OK ] PacketHeaderTest.ReadPayload2 (0 ms)
+[ RUN      ] PacketHeaderTest.ReadLongPayload
+[       OK ] PacketHeaderTest.ReadLongPayload (0 ms)
+[----------] 10 tests from PacketHeaderTest (0 ms total)
+
+[----------] 4 tests from PacketBuilderTest
+[ RUN      ] PacketBuilderTest.AppendByte
+[       OK ] PacketBuilderTest.AppendByte (0 ms)
+[ RUN      ] PacketBuilderTest.AppendUint16
+[       OK ] PacketBuilderTest.AppendUint16 (0 ms)
+[ RUN      ] PacketBuilderTest.AppendUint32
+[       OK ] PacketBuilderTest.AppendUint32 (0 ms)
+[ RUN      ] PacketBuilderTest.AppendBytes
+[       OK ] PacketBuilderTest.AppendBytes (0 ms)
+[----------] 4 tests from PacketBuilderTest (0 ms total)
+
+[----------] 8 tests from CropStreambufTest
+[ RUN      ] CropStreambufTest.Crop6x7
+[       OK ] CropStreambufTest.Crop6x7 (0 ms)
+[ RUN      ] CropStreambufTest.Crop6x7_EOF
+[       OK ] CropStreambufTest.Crop6x7_EOF (0 ms)
+[ RUN      ] CropStreambufTest.Crop6x7_PartialLineRead
+[       OK ] CropStreambufTest.Crop6x7_PartialLineRead (0 ms)
+[ RUN      ] CropStreambufTest.Crop6x8_DoubleLineRead
+[       OK ] CropStreambufTest.Crop6x8_DoubleLineRead (0 ms)
+[ RUN      ] CropStreambufTest.Crop5x9_1dot8LineRead
+[       OK ] CropStreambufTest.Crop5x9_1dot8LineRead (0 ms)
+[ RUN      ] CropStreambufTest.Crop6x7_SingleByteRead
+[       OK ] CropStreambufTest.Crop6x7_SingleByteRead (0 ms)
+[ RUN      ] CropStreambufTest.Crop6x7_ReadNoBump
+[       OK ] CropStreambufTest.Crop6x7_ReadNoBump (0 ms)
+[ RUN      ] CropStreambufTest.NoCrop
+[       OK ] CropStreambufTest.NoCrop (0 ms)
+[----------] 8 tests from CropStreambufTest (0 ms total)
+
+[----------] 5 tests from BufferedPageTest
+[ RUN      ] BufferedPageTest.SeekPos
+[       OK ] BufferedPageTest.SeekPos (0 ms)
+[ RUN      ] BufferedPageTest.SeekOff
+[       OK ] BufferedPageTest.SeekOff (0 ms)
+[ RUN      ] BufferedPageTest.MoveCtor
+[       OK ] BufferedPageTest.MoveCtor (0 ms)
+[ RUN      ] BufferedPageTest.MoveAssign
+[       OK ] BufferedPageTest.MoveAssign (0 ms)
+[ RUN      ] BufferedPageTest.PartRead
+[       OK ] BufferedPageTest.PartRead (0 ms)
+[----------] 5 tests from BufferedPageTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 84 tests from 9 test suites ran. (1 ms total)
+[  PASSED  ] 84 tests.
